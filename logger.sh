@@ -1,2 +1,2 @@
 #!/bin/env sh
-while true ; do nc -l -p 80  < index.html; done
+while true ; do nc -l -p $PORT  < index.html; done
